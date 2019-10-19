@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">eZyPasswordManager</string>
+    <string name="id_passwords">Passwords</string>
+    <string name="id_add">Add</string>
+    <string name="id_check_your_existing_passwords">Check your existing passwords</string>
+    <string name="add_your_custom_password">Add your custom password</string>
+    <string name="id_generate">Generate</string>
+    <string name="generate_new_random_password">Generate new random password</string>
+    <string name="id_pin">Pin</string>
+    <string name="id_change_application_pin_password">change application PIN password</string>
+    <string name="id_backup">Backup</string>
+    <string name="id_backup_your_passwords_online">Backup your passwords online</string>
+    <string name="id_restore_your_saved_passwords">Restore your saved passwords</string>
+    <string name="id_restore">Restore</string>
+</resources>
