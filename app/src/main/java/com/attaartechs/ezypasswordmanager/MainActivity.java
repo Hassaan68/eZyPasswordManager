@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.attaartechs.ezypasswordmanager.Utils.PreferenceHelper;
 import com.balysv.materialripple.MaterialRippleLayout;
 
 
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Context myContext;
 
+    private PreferenceHelper preferenceHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         myContext = this;
+
         btnAddNewPassword = findViewById(R.id.btnAddNewPassword);
         btnPasswords = findViewById(R.id.btnPasswords);
         btnGenerateNewPassword = findViewById(R.id.btnGenerateNewPassword);
@@ -40,13 +43,14 @@ public class MainActivity extends AppCompatActivity {
         btnBackup = findViewById(R.id.btnBackupPasswords);
         btnRestore = findViewById(R.id.btnRestorePasswords);
 
-       // MaterialRippleLayout.on(btnPasswords).rippleColor(Color.GRAY).create();
+        preferenceHelper = new PreferenceHelper(this);
+
         btnPasswords.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//
-//                Intent intent = new Intent(myContext,PasswordsActivity.class);
-//                startActivity(intent);
+
+                Intent intent = new Intent(myContext,PasswordsActivity.class);
+                startActivity(intent);
 
 
             }

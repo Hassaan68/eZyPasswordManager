@@ -28,6 +28,7 @@ dependencies {
 
     implementation 'com.balysv:material-ripple:1.0.2'
 
+    implementation 'io.paperdb:paperdb:2.6'
 
     implementation 'androidx.cardview:cardview:1.0.0'
 
