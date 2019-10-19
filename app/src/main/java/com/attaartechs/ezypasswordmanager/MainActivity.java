@@ -4,16 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
+
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
+
 
 import com.attaartechs.ezypasswordmanager.Utils.PreferenceHelper;
-import com.balysv.materialripple.MaterialRippleLayout;
+import com.fxn.cue.Cue;
+import com.fxn.cue.enums.Type;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -49,9 +47,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(myContext,PasswordsActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(myContext,PasswordsActivity.class);
+//                startActivity(intent);
 
+
+                Cue.init()
+                        .with(myContext)
+                        .setMessage(myContext.getResources().getString(R.string.id_empty_passwords))
+                        .setType(Type.DANGER).setPadding(40).setTextSize(17)
+                        .show();
 
             }
         });

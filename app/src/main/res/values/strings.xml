@@ -13,4 +13,5 @@
     <string name="id_restore_your_saved_passwords">Restore your saved passwords</string>
     <string name="id_restore">Restore</string>
     <string name="id_mypasswords">My Passwords</string>
+    <string name="id_empty_passwords">No Passwords Added</string>
 </resources>
