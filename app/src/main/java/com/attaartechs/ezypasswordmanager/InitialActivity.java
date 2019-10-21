@@ -46,6 +46,7 @@ public class InitialActivity extends AppCompatActivity {
         mainPinView = findViewById(R.id.firstPinView);
         secondPinView = findViewById(R.id.secondPinView);
 
+
         if(preferenceHelper.getPin().length() > 0)
         {
             secondPinView.setVisibility(View.GONE);
@@ -54,10 +55,21 @@ public class InitialActivity extends AppCompatActivity {
 
         if(isFromChangePin)
         {
+            findViewById(R.id.toolBar).setVisibility(View.VISIBLE);
+            findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    finish();
+                }
+            });
+
+            secondPinLabel.setText(myContext.getResources().getString(R.string.id_new_pin));
             firstPinLabel.setText(myContext.getResources().getString(R.string.id_old_pin));
             secondPinLabel.setVisibility(View.VISIBLE);
             secondPinView.setVisibility(View.VISIBLE);
         }
+
 
         mainPinView.addTextChangedListener(new TextWatcher() {
             @Override

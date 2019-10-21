@@ -20,7 +20,7 @@
     <string name="id_password_saved">Password Saved!</string>
     <string name="id_enter_password_titl">Please Enter Password Title</string>
     <string name="id_enter_password">Please enter password</string>
-    <string name="id_choose_category">Choose Category</string>
+    <string name="id_choose_category">Choose Category (Popular)</string>
     <string name="id_copy">Copy</string>
     <string name="id_password_copied">Password Copied</string>
     <string name="id_yes">Yes</string>
@@ -32,4 +32,11 @@
     <string name="id_mismatch">PIN mismatch</string>
     <string name="id_wrong_old_pin">Wrong Old PIN</string>
     <string name="id_pin_changed">PIN changed</string>
+    <string name="id_change_pin">Change PIN</string>
+    <string name="id_new_pin">New PIN</string>
+    <string name="id_passwords_restored">Passwords Restored</string>
+    <string name="id_no_backup_found">No backup found for your account</string>
+    <string name="id_passwords_successfully_backed_up">Passwords Successfully Backed up</string>
+    <string name="id_delete_confirmation_title">Delete?</string>
+    <string name="id_delete_confirmation_message">Are you sure you want to delete?</string>
 </resources>

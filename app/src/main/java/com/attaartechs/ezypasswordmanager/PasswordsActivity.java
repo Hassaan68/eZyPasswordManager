@@ -78,8 +78,8 @@ public class PasswordsActivity extends AppCompatActivity implements View.OnClick
                        .setTopColorRes(R.color.colorPrimaryDark)
                        .setIcon(R.drawable.clear)
                        .setButtonsColorRes(R.color.colorAccent)
-                       .setTitle("Delete?")
-                       .setMessage("Are you sure you want to delete?")
+                       .setTitle(myContext.getResources().getString(R.string.id_delete_confirmation_title))
+                       .setMessage(myContext.getResources().getString(R.string.id_delete_confirmation_message))
                        .setPositiveButton(myContext.getResources().getString(R.string.id_yes), new View.OnClickListener() {
                            @Override
                            public void onClick(View v) {

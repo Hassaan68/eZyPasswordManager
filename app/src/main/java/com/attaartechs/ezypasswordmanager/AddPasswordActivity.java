@@ -49,6 +49,11 @@ public class AddPasswordActivity extends AppCompatActivity {
 
 
         listCategories = AppConstants.listCategory;
+
+        for(int nIndex = 0;nIndex < listCategories.size();nIndex++)
+        {
+            listCategories.get(nIndex).isChecked = false;
+        }
         listPasswords = Paper.book().read(AppConstants.KEY_PASSWORDS_LIST,new ArrayList<Password>());
 
         mRecyclerView = findViewById(R.id.recyclerCategory);
@@ -72,6 +77,7 @@ public class AddPasswordActivity extends AppCompatActivity {
                 selectedCategory = category;
                 listCategories.get(position).isChecked = true ;
                 categoryAdapter.notifyDataSetChanged();
+                ediTitle.setText(category.csName);
 
 
             }
@@ -115,7 +121,7 @@ public class AddPasswordActivity extends AppCompatActivity {
                     return;
                 }
 
-                if(ediTitle.getText().toString().trim().length() == 0)
+                if(editPassword.getText().toString().trim().length() == 0)
                 {
                     passwordValidationErrorMessage(myContext.getResources().getString(R.string.id_enter_password));
                     return;

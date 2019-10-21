@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "126774388898",
+    "firebase_url": "https://ezy-password-manager.firebaseio.com",
+    "project_id": "ezy-password-manager",
+    "storage_bucket": "ezy-password-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126774388898:android:738c154d6ea0c3f71bcffb",
+        "android_client_info": {
+          "package_name": "com.attaartechs.ezypasswordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126774388898-9k9vkiuqeg26buv8r4r356jmjg2kk3lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8K6VXNhst1erlsiSvqe0qP3FewjkXjec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126774388898-9k9vkiuqeg26buv8r4r356jmjg2kk3lp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
