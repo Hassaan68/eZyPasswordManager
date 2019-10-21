@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InitialActivity">
+
+
+    <TextView
+        android:id="@+id/firstPinViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/firstPinView"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="@string/id_enter_pin"
+        android:layout_height="wrap_content"
+
+        />
+    <com.chaos.view.PinView
+        android:id="@+id/firstPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:cursorVisible="true"
+        android:hint="0123"
+
+        android:layout_centerHorizontal="true"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cursorColor="@color/id_white"
+        app:cursorWidth="2dp"
+        app:itemCount="4"
+        app:itemHeight="48dp"
+        app:itemRadius="4dp"
+        app:itemSpacing="0dp"
+        app:itemWidth="48dp"
+        app:lineColor="@color/colorPrimaryDark"
+        app:lineWidth="2dp"
+        app:viewType="rectangle" />
+
+
+    <TextView
+        android:id="@+id/secondPinViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/firstPinView"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="@string/id_confirm_pin"
+        android:layout_height="wrap_content"
+
+        />
+    <com.chaos.view.PinView
+        android:id="@+id/secondPinView"
+        style="@style/PinWidget.PinView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cursorVisible="true"
+        android:hint="0123"
+        android:layout_below="@+id/secondPinViewLabel"
+        android:layout_centerHorizontal="true"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cursorColor="@color/id_white"
+        app:cursorWidth="2dp"
+        app:itemCount="4"
+        app:itemHeight="48dp"
+        app:itemRadius="4dp"
+        app:itemSpacing="0dp"
+        app:itemWidth="48dp"
+        app:lineColor="@color/colorPrimaryDark"
+        app:lineWidth="2dp"
+        app:viewType="rectangle" />
+</RelativeLayout>

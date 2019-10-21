@@ -14,4 +14,22 @@
     <string name="id_restore">Restore</string>
     <string name="id_mypasswords">My Passwords</string>
     <string name="id_empty_passwords">No Passwords Added</string>
+    <string name="id_password">Password</string>
+    <string name="id_password_title">Password Title</string>
+    <string name="id_save">Save</string>
+    <string name="id_password_saved">Password Saved!</string>
+    <string name="id_enter_password_titl">Please Enter Password Title</string>
+    <string name="id_enter_password">Please enter password</string>
+    <string name="id_choose_category">Choose Category</string>
+    <string name="id_copy">Copy</string>
+    <string name="id_password_copied">Password Copied</string>
+    <string name="id_yes">Yes</string>
+    <string name="id_no">No</string>
+    <string name="id_enter_pin">Enter PIN</string>
+    <string name="id_confirm_pin">Confirm PIN</string>
+    <string name="id_old_pin">Old PIN</string>
+    <string name="id_wrong_pin">Wrong PIN</string>
+    <string name="id_mismatch">PIN mismatch</string>
+    <string name="id_wrong_old_pin">Wrong Old PIN</string>
+    <string name="id_pin_changed">PIN changed</string>
 </resources>

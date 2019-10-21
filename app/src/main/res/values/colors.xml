@@ -5,4 +5,6 @@
     <color name="colorAccent">#D81B60</color>
     <color name="id_gray_color_app">#8aaa</color>
     <color name="id_green_color">#4FBA6F</color>
+
+    <color name="id_white">#ffffff</color>
 </resources>

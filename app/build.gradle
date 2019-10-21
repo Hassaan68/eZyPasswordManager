@@ -36,7 +36,10 @@ dependencies {
 
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 
+    implementation 'com.yarolegovich:lovely-dialog:1.1.0'
 
 
+    implementation 'com.chaos.view:pinview:1.4.3'
 
+    implementation 'com.google.android.material:material:1.1.0-beta01'
 }

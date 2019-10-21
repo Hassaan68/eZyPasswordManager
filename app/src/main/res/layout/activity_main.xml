@@ -9,6 +9,36 @@
     tools:context=".MainActivity">
 
 
+    <RelativeLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@color/id_green_color"
+        >
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="50dp"
+            android:id="@+id/btnBack"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:src="@drawable/backarrow"/>
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:text="@string/id_mypasswords"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/adsLayout"
         android:orientation="vertical"
