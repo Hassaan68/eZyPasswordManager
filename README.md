@@ -2,7 +2,9 @@
 
 > Simple Password manager app you can use to save your passwords and keep backup in firebase database
 
-Just fork this project
+Star this project to get future updates
+
+Fork this project
 
 change pakcage name
 
