@@ -25,8 +25,8 @@ Add the debug SHA in firebase or create release apk and add release SHA in fireb
 
 ## Screenshots
 
-<img src="assets/demo1.jpg" width="150px" />
-![Demo 2](assets/demo2.jpg)
-![Demo 3](assets/demo3.jpg)
-![Demo 4](assets/demo4.jpg)
-![Demo 5](assets/demo5.jpg)
+<img src="assets/demo1.jpg" width="250px" />
+<img src="assets/demo2.jpg" width="250px" />
+<img src="assets/demo3.jpg" width="250px" />
+<img src="assets/demo4.jpg" width="250px" />
+<img src="assets/demo5.jpg" width="250px" />
